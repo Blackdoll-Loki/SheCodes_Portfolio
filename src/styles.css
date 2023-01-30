@@ -108,5 +108,15 @@ p {
   background-color: transparent;
   padding: 0;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 577px) {
+  h1 {
+    font-size: 48px;
+  }
+  .section-heading,
+  .section-paragraph {
+    text-align: center;
+  }
+  .section-btn {
+    width: 100%;
+  }
 }
